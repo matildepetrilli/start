@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.sfondo {
+  background-color: #E8E8E8;
+}
+
+/*NAVBAR*/
+.navbar{
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.smalltext {
+  font-size: smaller;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: #000; 
+  color: #fff;               
+}
+
+.dropdown-menu {
+ top: 65px;
+}
+
+
+
+/*FOOTER*/
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footer-left,
+.footer-right {
+  flex: 1 1 300px;
+  margin: 20px;
+}
+
+.footer-left h3,
+.footer-right h4 {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.footer-left p,
+.footer-right p {
+  color: #cccccc;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.footer-right i {
+  margin-right: 8px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  font-size: 22px;
+  color: #cccccc;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #333;
+  font-size: 13px;
+  color: #888888;
+}
+
+/*MAIN CARD*/
+.MainContainer,
+.diverso {
+  height: 200px !important;
+  overflow: hidden;
+}
+
+.MainContainer:hover {
+  transform: scale(1.09); /* Ingrandisce del 5% */
+  background-color: rgba(0, 0, 0, 1.5);
+}
+
+.card-image, .card-image2{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay-text {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1.5);
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.card:hover .card-image {
+  filter: brightness(40%);
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card:hover .overlay-text {
+  position:center;
+  color: #e4dfd7;
+  font-size: 1.9rem;
+  font-weight: bolder;
+}
+
+/*FROM*/
+.form-group-shadow,
+.form-control,
+.form-select,
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="checkbox"],
+input[type="radio"] {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  transition: box-shadow 0.3s ease;
+}
+
+/* Effetto al focus per input */
+input:focus,
+textarea:focus,
+select:focus {
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+.smaller{
+  font-size: 10px;
+}
+
+.fermo {
+  position: sticky;
+  top: 35px; 
+  z-index: 1020; }
