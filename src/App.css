@@ -151,3 +151,14 @@ select:focus {
   position: sticky;
   top: 35px; 
   z-index: 1020; }
+
+
+  /*CHI SONO*/
+  .ChiSono{
+   width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+   margin-top: 150px;
+  }
