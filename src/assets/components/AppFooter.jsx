@@ -48,7 +48,7 @@ const AppFooter = () => {
           </p>
           <Link to="/Pagina3" className="Afooter">
             <p>
-              <i className="bi bi-geo-alt-fill "></i> VIA NAVIGLIO 14, FAENZA
+              <i className="bi bi-geo-alt-fill "></i> Via Naviglio 14, Faenza
               (RA), 48018
             </p>
           </Link>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-const NavChiSono = () => {
+const NavContatti = () => {
   return (
     <>
       <div className="fermo bg-dark text-center">
@@ -15,11 +15,11 @@ const NavChiSono = () => {
         <hr className="text-secondary" />
 
         <Link
-          to="/Pagina3"
-          className="d-block bg-dark text-secondary text-decoration-none"
+          to="/Pagina4"
+          className="d-block bg-dark text-secondary  text-decoration-none"
         >
-          <i class="bi bi-geo-alt-fill me-2"></i>
-          <span className="d-none d-lg-inline">DOVE?</span>
+          <i className="bi bi-person-fill me-2"></i>
+          <span className="d-none d-lg-inline">CHI SONO?</span>
         </Link>
         <hr className="text-secondary" />
 
@@ -31,13 +31,13 @@ const NavChiSono = () => {
           <span className="d-none d-lg-inline">CONTATTAMI</span>
         </Link>
         <hr className="text-secondary" />
-        
-        <Link
-        to="/Pagina5"
+
+         <Link
+        to="/Pagina3"
         className="d-block bg-dark text-secondary text-decoration-none"
         >
-        <i class="bi bi-person-lines-fill me-2"></i>
-        <span className="d-none d-lg-inline">CONTATTI</span>
+        <i class="bi bi-geo-alt-fill me-2"></i>
+        <span className="d-none d-lg-inline">DOVE?</span>
         </Link>
          <hr className="text-secondary" />
       </div>
@@ -45,4 +45,4 @@ const NavChiSono = () => {
   );
 };
 
-export default NavChiSono;
+export default NavContatti;

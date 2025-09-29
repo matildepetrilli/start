@@ -74,7 +74,7 @@ function AppForm() {
       nazionalita: formData.nazionalita,
       residenza: formData.residenza,
       richiesta: formData.richiesta,
-      to_email: " bontempifederica1996@gmail.com",
+      to_email: "bontempifederica1996@gmail.com",
     };
 
     emailjs

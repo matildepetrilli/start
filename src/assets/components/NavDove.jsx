@@ -31,6 +31,15 @@ const NavDove = () => {
           <span className="d-none d-lg-inline">CONTATTAMI</span>
         </Link>
         <hr className="text-secondary" />
+
+         <Link
+        to="/Pagina5"
+        className="d-block bg-dark text-secondary text-decoration-none"
+        >
+        <i class="bi bi-person-lines-fill me-2"></i>
+        <span className="d-none d-lg-inline">CONTATTI</span>
+        </Link>
+         <hr className="text-secondary" />
       </div>
     </>
   );

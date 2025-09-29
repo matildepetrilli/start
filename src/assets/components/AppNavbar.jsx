@@ -46,6 +46,9 @@ const AppNavbar = () => {
                 <Dropdown.Item as={Link} to="/Pagina2" className="text-white m-2">
                   <i className="bi bi-envelope-fill me-2"></i>Contattami
                 </Dropdown.Item>
+                 <Dropdown.Item as={Link} to="/Pagina5" className="text-white m-2">
+                  <i className="bi bi-person-lines-fill me-2"></i>Contattami
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
           </div>

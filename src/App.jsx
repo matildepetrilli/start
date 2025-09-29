@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Pagina2 from './assets/components/Pagina2';
 import Pagina3 from './assets/components/Pagina3';
 import Pagina4 from './assets/components/Pagina4';
+import Pagina5 from './assets/components/Pagina5';
 
 function App() {
   
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Pagina2" element={<Pagina2/>} />
           <Route path="/Pagina4" element={<Pagina4/>}/>
           <Route path="/Pagina3" element={<Pagina3/>}/>
+          <Route path="/Pagina5" element={<Pagina5/>}/>
         </Routes>
         <AppFooter />
       </BrowserRouter>

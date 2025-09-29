@@ -7,12 +7,15 @@ const AppMain = () => {
         <Row className="justify-content-center w-100">
             {/*PROMA RIGA*/}
           <Col md={3}>
-            <Card className="diverso mt-5">
+          <Link to="./Pagina5">
+            <Card className="MainContainer mt-5">
               <Card.Img
                 src="https://i.pinimg.com/originals/e8/90/1c/e8901c74e0ffaebaac19d375c30c39b8.jpg"
-                className="card-image2"
+                className="card-image"
               />
+               <div className="overlay-text">Contatti</div>
             </Card>
+            </Link>
           </Col>
           <Col md={1}></Col>
           <Col md={6}>
