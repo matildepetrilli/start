@@ -38,7 +38,7 @@ const AppNavbar = () => {
 
               <Dropdown.Menu className="bg-dark m-3">
                 <Dropdown.Item as={Link} to="/Pagina4" className="text-white m-2">
-                  <i className="bi bi-person-fill me-2"></i>Chi Sono?
+                  <i className="bi bi-person-fill me-2"></i>Chi Sono
                 </Dropdown.Item>
                 <Dropdown.Item as={Link} to="/Pagina3" className="text-white m-2">
                   <i className="bi bi-geo-alt-fill me-2"></i>Dove?

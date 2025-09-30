@@ -13,7 +13,7 @@ const NavForm = () => {
 
   <Link to="/Pagina4" className="d-block bg-dark text-secondary  text-decoration-none">
     <i className="bi bi-person-fill me-2"></i>
-    <span className="d-none d-lg-inline">CHI SONO?</span>
+    <span className="d-none d-lg-inline">CHI SONO</span>
   </Link>
   <hr className="text-secondary" />
 

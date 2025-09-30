@@ -25,7 +25,7 @@ const AppMain = () => {
                 src="https://i.pinimg.com/originals/e8/90/1c/e8901c74e0ffaebaac19d375c30c39b8.jpg"
                 className="card-image"
               />
-              <div className="overlay-text">Chi sono?</div>
+              <div className="overlay-text">Chi sono</div>
             </Card>
             </Link>
           </Col>
